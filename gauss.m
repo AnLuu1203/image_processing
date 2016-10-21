@@ -12,7 +12,7 @@ for c = 1:C
     end
 end
 
-matrix = matrix / sum(matrix(:))
+matrix = matrix
 surf(matrix);
 
 m_space = fftshift(abs(ifft2(matrix)));
