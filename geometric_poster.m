@@ -49,7 +49,7 @@ b = [
     f_poster(3,2);
     f_poster(4,1);
     f_poster(4,2)
-   ]
+   ];
 
 h = A\b;
 M = ones(3,3);

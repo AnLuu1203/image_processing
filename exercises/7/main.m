@@ -13,8 +13,9 @@ H_lap = [
     -1 -1 -1
     ];
 
-im = imread('test.jpg');
-im = rgb2gray(im);
+%im = imread('test.jpg');
+%im = rgb2gray(im);
+im = checkerboard(100);
 
 im_filter_1 = imfilter(im, Hx);
 im_filter_2 = imfilter(im, H_lap);
